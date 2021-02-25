@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .root {}
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+        border: 1px solid #030303;
+    }
+
+    td {
+        border: 1px solid #030303;
+    }
+
+    section {
+        padding: 100px 0px 100px 0px;
+    }
+</style>
+
+<body>
+
+    <div class="root">
+        <div class="root_h">
+            <h2>Promotion Plans</h2>
+        </div>
+
+        <div class="table_content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Compare All Plans</th>
+                        <th>Starter</th>
+                        <th>Advance</th>
+                        <th>Enterprize</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">1st month Management Cost</td>
+                        <td>$400</td>
+                        <td>$900</td>
+                        <td>$1200</td>
+                    </tr>
+
+                    <tr>
+                        <td>$400</td>
+                        <td>$900</td>
+                        <td>$1200</td>
+                    </tr>
+
+                    <tr>
+                        <td>Following Month</td>
+                        <td>$300</td>
+                        <td>$700</td>
+                        <td>$900</td>
+                    </tr>
+
+                    <tr>
+                        <td>Delivery Time</td>
+                        <td>3-6 Months</td>
+                        <td>3-6 Months</td>
+                        <td>3-6 Months</td>
+                    </tr>
+
+                    <tr>
+                        <td>Support 24/7</td>
+                        <td>$400</td>
+                        <td>$400</td>
+                        <td>$400</td>
+                    </tr>
+
+                    <tr>
+                        <td>Certificate</td>
+                        <td>$400</td>
+                        <td>$400</td>
+                        <td>$400</td>
+                    </tr>
+
+                    <tr>
+                        <td>Guranteed Keywords Ranking in First Page of Google</td>
+                        <td>18</td>
+                        <td>20</td>
+                        <td>40</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td><button>Buy now</button></td>
+                        <td><button>Buy now</button></td>
+                        <td><button>Buy now</button></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    <section id="form">
+        <div class="reg_form">
+            <h2>Sign Up</h2>
+
+            <form action="">
+
+        
+
+            <label for="username">Username</label><br>
+            <input type="text" name="username" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" required>
+            <br>
+
+            <label for="pass">Password</label><br>
+            <input type="password" name="pass" minlength="4" maxlength="8" required><br>
+
+            <label for="age">Age:
+            </label><br>
+            <p>
+                <input type="radio" name="age">
+                <label for="age">Under 13</label><br>
+                <input type="radio" name="age">
+                <label for="age">Elder 13</label>
+            </p>
+
+            <label for="about">Biography:</label><br>
+            <textarea name="about" id="" cols="30" rows="10"></textarea>
+
+            <br>
+
+
+            <label for="role">Role</label> <br>
+            <select name="" id="">
+                <option value="">--Select Role--</option>
+                <option value="Designer">Designer</option>
+                <option value="Developer">Developer</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Front End Developer">Front End Developer</option>
+                <option value="Backed Developer">Backed Developer</option>
+                <option value="Fullstack Developer">Fullstack Developer</option>
+            </select><br>
+
+            <label for="interest">Interest</label><br>
+
+            <input type="checkbox" name="Designer" id="Designer">
+            <label for="Designer">Designer</label>
+            <br>
+            <input type="checkbox" name="Developer" id="Developer">
+            <label for="Developer">Developer</label>
+            <br>
+            <input type="checkbox" name="Business" id="Business">
+            <label for="Business">Business</label><br>
+
+
+            <button type="submit">Submit</button>
+
+        </form>
+        </div>
+    </section>
+</body>
+
+</html>
