@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
 }
 
-h2::first-letter {
+/* h2::first-letter {
     font-size: 30px;
     color: coral;
 }
@@ -21,8 +21,17 @@ p::first-line {
 
 p::selection {
     background-color: darkorange;
+} */
+
+/* article :first-of-type {
+    background-color: darkslateblue;
+} */
+
+h2 {
+    background-color: gold;
 }
 
-article :first-of-type {
-    background-color: darkslateblue;
+article div:nth-child(odd) {
+    color: dodgerblue;
 }
+
